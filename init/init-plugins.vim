@@ -53,6 +53,15 @@ Plug 'godlygeek/tabular', { 'on': 'Tabularize' }
 " Diff 增强，支持 histogram / patience 等更科学的 diff 算法
 Plug 'chrisbra/vim-diff-enhanced'
 
+" 文件跳转
+Plug 'ton/vim-alternate'
+
+" 代码注释
+Plug 'tpope/vim-commentary'
+
+" C++补全
+Plug 'ycm-core/YouCompleteMe'
+
 
 "----------------------------------------------------------------------
 " Dirvish 设置：自动排序并隐藏文件，同时定位到相关文件
